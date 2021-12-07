@@ -18,7 +18,7 @@ const styles = theme => ({
 
     title: {
         display: "none",  //nothing show under  sm size
-        [theme.breakpoints.up("sm")]: {  //show over small and up sizes
+        [theme.breakpoints.up("sm")]: {  //show over small and up
             display: "block"
         }
     },
